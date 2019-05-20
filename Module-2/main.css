@@ -7,6 +7,10 @@
     margin: 0px;
 }
 
+body {
+  margin: auto 10px;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 15px;
@@ -14,7 +18,7 @@ h1 {
 }
 
 .cardContainer {
-    padding: 20px;
+    padding: 5px;
 }
 
 .card {
@@ -25,7 +29,8 @@ h1 {
 
 .cardTitle {
     float: right;
-    border: solid 1px #36454f;
+    border-left: solid 1px #36454f;
+    border-bottom: solid 1px #36454f;
     background-color: white; 
 }
 
